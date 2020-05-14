@@ -175,7 +175,7 @@ nav { margin:0px auto; position:relative; display:table; height:52px; float:righ
 header { position:relative; z-index: 1099; width:100%; background:#fff; padding:16px 35px 14px; }
 #undefined-sticky-wrapper { /*position:fixed;*/ z-index:200; width:100% }
 .container { position:relative; margin:0 auto; }
-.section { position:relative; padding:114px 0 97px 0; display:block; }
+.section { position:relative; padding:85px 0 97px 0; display:block; }
 #ancor2, #ancor3, #ancor4, #ancor5, #ancor6, #ancor7, #ancor8 { position:absolute; top:-78px; }
 #section1 { display:block; height:100%; width:100%; border:0; }
 .section.white-bg { background:#fff; }
@@ -452,19 +452,41 @@ ul.unordered-list li a:hover, ol li a:hover { border-bottom:1px solid #3d9991; -
 
 /* =14. Price Tables
 --------------------------------------------------------------------------------------------------------*/
-.price-table { text-align:center; background:#fff; padding:10px 35px; padding-bottom:45px; margin:10px 0 25px; width:100%; }
-.price-table h3 { padding-bottom:10px; }
-.price-table p.price { font-size:60px; color:#2b2b2b; letter-spacing:-2px; margin-left:-10px; font-weight:400; padding-top:15px; margin-bottom:0; padding-bottom:0;  }
+.price-table { text-align:center; background:#fff; padding:10px 35px; padding-bottom:45px; margin:10px 0 25px; width:100%; box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1); }
+.price-table img {margin-top:20px;}
+.price-table h3 { padding-bottom:10px; font-size: 25px; font-family: 'Inconsolata', Arial, Helvetica, sans-serif;}
+.price-table p.price { font-size:40px; color:#2b2b2b; letter-spacing:-2px; margin-left:-10px; font-weight:400; padding-top:15px; margin-bottom:0; padding-bottom:0;  }
 .price-table p.price span { font-size:18px; display:inline-block; padding-top:20px; padding-right:5px; font-weight:400; vertical-align:top }
 .price-table.highlighted p.price { font-size:72px; }
 .price-table.highlighted p.price, .price-table.highlighted p.price span {  font-weight:600; }
 .line-through { text-decoration: line-through; color:#bbb }
-.price-table .price-details { line-height:2.0 }
+.price-table .price-details { line-height:2.0; margin-bottom: 15px;}
 .heading:after { background:#fff; bottom:-5px; content:""; height:12px; left:50%; margin-left:-6px; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; }
 .heading:before { background:none repeat scroll 0 0 rgba(221, 221, 221, 1); bottom:-7px; content:""; height:12px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; margin-left:-6px; }
 .heading { padding:10px 0px 12px; margin-top:20px; position:relative; background:#fff; color:#2b2b2b; border-bottom:1px solid #d8d8d8; }
+.description:after { background:#fff; bottom:-9px; content:""; height:12px; left:50%; margin-left:-6px; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; }
+.description:before { background:none repeat scroll 0 0 rgba(221, 221, 221, 1); bottom:-7px; content:""; height:12px; left:50%; position:absolute; -webkit-transform:rotate(45deg); -moz-transform:rotate(45deg); -ms-transform:rotate(45deg); -o-transform:rotate(45deg); width:12px; margin-left:-6px; }
+.description { padding:10px 0px 15px; margin-top:20px; position:relative; background:#fff; color:#2b2b2b; border-bottom:1px solid #d8d8d8; }
 .price-table.highlighted .heading:before { background:none repeat scroll 0 0 rgba(43, 43, 43, 1); }
 .price-table.highlighted .heading { border-bottom:2px solid #2b2b2b; }
+.heading p.uppercase { padding-top:5px; margin-bottom:0px; position:relative }
+/* =End Price Tables
+
+/* =14. Uslugi Tables
+--------------------------------------------------------------------------------------------------------*/
+.us-table { background:#fff; padding:10px 35px; padding-bottom:45px; margin:10px 0 25px; width:100%; }
+.us-table img {margin-top:20px;}
+.us-table .divider {margin:12px 0 10px;}
+.us-table b {font-weight: bold;}
+.us-table h4 { padding:10px 0 0 0; font-size: 25px; font-family: 'Inconsolata', Arial, Helvetica, sans-serif;}
+.us-table p.us { font-size:40px; color:#2b2b2b; letter-spacing:-2px; margin-left:-10px; font-weight:400; padding-top:15px; margin-bottom:0; padding-bottom:0;  }
+.us-table p.price span { font-size:18px; display:inline-block; padding-top:20px; padding-right:5px; font-weight:400; vertical-align:top }
+.us-table.highlighted p.us { font-size:72px; }
+.us-table.highlighted p.us, .us-table.highlighted p.us span {  font-weight:600; }
+.line-through { text-decoration: line-through; color:#bbb }
+.us-table .price-details { line-height:2.0; margin-bottom: 15px;}
+.us-table.highlighted .heading:before { background:none repeat scroll 0 0 rgba(43, 43, 43, 1); }
+.us-table.highlighted .heading { border-bottom:2px solid #2b2b2b; }
 .heading p.uppercase { padding-top:5px; margin-bottom:0px; position:relative }
 /* =End Price Tables
 --------------------------------------------------------------------------------------------------------*/
